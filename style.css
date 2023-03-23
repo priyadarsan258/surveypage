@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+     
+}
+header{
+    background-color: antiquewhite;
+    height: 200px;
+    width: 100vw;
+    size: auto;
+  
+}
+#feedbackpic{
+    width: 20vw;
+    height: 15vh;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    opacity: 0.8;
+    display: flex;
+}
+
+header .para{
+    position: absolute;
+    left: 39px;
+    top:76px;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    width: 100vw;
+    font-size: 12px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    margin: 15px 10px 2px 2px;
+    display: flex;
+    flex-direction: column;
+}
+.label:hover{
+    color: black;
+}
+#submit{
+    background-color: rgb(22, 2, 2);
+    color: aliceblue;
+    width: 100%;
+}
+footer{
+    background-color: dimgrey;
+    height: 200px;
+    width: 100vw;   
+    display: flex;
+    position: relative;
+   
+}
+.logo{
+    height: 20px;
+    width:15px;
+    margin: 5px;
+}
+#left{
+    display: flex;
+position: absolute;
+top: 19px;
+left: 9px;
+}   
+#right{
+    display: flex;
+    position: absolute;
+    right: 9px;  
+    top: 19px;
+}
+ #footer{
+    /* border: 2px solid red; */
+    /* /* height: 15px; */
+    width: 98vw; 
+ display: flex;
+justify-content: space-between;
+ 
+ }
